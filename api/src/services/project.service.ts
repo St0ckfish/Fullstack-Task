@@ -40,6 +40,20 @@ export class ProjectService {
       ];
     } else if (idea.toLowerCase().includes('restaurant')) {
       return ['Hero - Fine Dining', 'About Chef', 'Menu', 'Reservations'];
+    } else if (idea.toLowerCase().includes('shop')) {
+      return [
+        'Hero - Welcome to Our Store',
+        'Featured Products',
+        'About Us',
+        'Customer Reviews',
+      ];
+    } else if (idea.toLowerCase().includes('portfolio')) {
+      return [
+        'Hero - Welcome',
+        'About Me',
+        'Portfolio Gallery',
+        'Skills & Experience',
+      ];
     }
 
     return sections;
